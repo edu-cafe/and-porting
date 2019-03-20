@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soo.mycall.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="120dp"
+        android:text="전화를 걸려면 버튼을 누르세요~~"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="60dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="callPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="156dp"
+        android:layout_marginTop="240dp"
+        android:text="Call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="156dp" />
+</android.support.constraint.ConstraintLayout>

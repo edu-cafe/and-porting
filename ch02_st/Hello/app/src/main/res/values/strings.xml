@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="name_hint">Hong Gildog</string>
+    <string name="btn_name">Send</string>
+</resources>

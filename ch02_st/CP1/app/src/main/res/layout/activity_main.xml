@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+        android:id="@+id/readall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Readl All"
+        />
+    <Button
+        android:id="@+id/readone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Read One"
+        />
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Insert"
+        />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Delete"
+        />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="Update"
+        />
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
